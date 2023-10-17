@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:orientation="vertical"
+    >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="22.9dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/back_button"
+                        android:src="@drawable/array_back"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginVertical="20dp"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineHeight="24dp"
+                        android:text="Информация о центре"
+                        android:layout_toRightOf="@+id/back_button"
+                        android:textSize="16sp"
+                        android:textFontWeight="400"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/open_sans"
+                        android:layout_alignBottom="@+id/back_button"
+                        android:layout_marginLeft= "15.23dp"
+                        android:layout_marginRight="54.51dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="86.8dp"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/ic_logo_main"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineHeight="24dp"
+                android:fontFamily="@font/open_sans"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                android:textFontWeight="400"
+                android:textColor="@color/black"
+                android:layout_marginTop="24.18dp"
+                android:layout_gravity="center"
+                android:text="МИ LION БІЛІМ БЕРУ ОРТАЛЫҒЫ"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/long_text"
+                android:layout_marginHorizontal="24dp"
+                android:textSize="12sp"
+                android:textFontWeight="400"
+                android:fontFamily="@font/open_sans"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="8sp"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

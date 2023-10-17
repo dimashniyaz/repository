@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/profile">
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.account.ProfileFragment"
+        android:label="Profile" />
+    <fragment
+        android:id="@+id/diary"
+        android:name="com.example.account.DiaryFragment"
+        android:label="Diary" />
+    <fragment
+        android:id="@+id/news"
+        android:name="com.example.account.NewsFragment"
+        android:label="News" />
+    <fragment
+        android:id="@+id/chat"
+        android:name="com.example.account.ChatFragment"
+        android:label="Chat" />
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="24dp"
+    app:cardBackgroundColor="#0099FF">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Профиль"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="17dp"
+        android:textSize="14sp"
+        android:textFontWeight="600"
+        android:fontFamily="@font/open_sans"
+        android:textColor="@color/white"/>
+
+</androidx.cardview.widget.CardView>
